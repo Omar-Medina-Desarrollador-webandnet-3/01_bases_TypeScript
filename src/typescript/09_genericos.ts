@@ -24,7 +24,6 @@ let soyObjeto = queTipoSoy({
 
 let soyExplicito = queTipoSoy<number>(100); //Tambien se puede especificar de esta manera
 
-
 console.log(soyString);
 console.log(soyArrgloString);
 console.log(soyNumerico);

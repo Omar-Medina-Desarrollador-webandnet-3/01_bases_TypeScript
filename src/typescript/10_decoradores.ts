@@ -3,10 +3,8 @@
  *    ======= Código de TypeScript =======
  */
 
-
 //Decoradores de clases - tipicos de ts - js no los conoce
 // Los decoradores sirven para cambiar las clases en el momento que son definidas
-
 
 //@EstoesunDecorador
 function classDecorator<T extends { new (...args: any[]): {} }>(

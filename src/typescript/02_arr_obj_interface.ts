@@ -14,7 +14,6 @@ habilidades.push('Tiempo corrido', 'minutos');
 console.log(habilidades);
 console.log(habilidades[0], habilidades[2], habilidades[4], habilidades[1]+'.', '(Accediento a este arreglo en la posición 4)');
 
-
 //objetos
 let hablilidades3: any = { //Esto no es recomendado, porque se debe restringir la manera de como los objetos son creados en ts
   Correr: '98 kmh',
@@ -24,8 +23,6 @@ let hablilidades3: any = { //Esto no es recomendado, porque se debe restringir l
 
 hablilidades3.jugar_futbol = 'Dias: Lunes, Miercoles, Viernes, Sabados'; //Agregando este nuevo atributo gracias a (any)
 console.log(hablilidades3);
-
-
 
 //Mejor practica para trabajar con arreglos --------------------
 interface Personaje {
@@ -45,7 +42,6 @@ console.log(personaje);
 console.log(personaje.email);
 console.table(personaje);
 //Mejor practica --------------------
-
 
 let hablilidades2 = {
   Correr: '98 kmh',

@@ -30,7 +30,6 @@ const resultado3 = sumar3(10, 30);
 
 console.log(resultado3);
 
-
 //función igual de ptra forma
 const sumar4 = (a:number, b: number)/*:number*/ => {
   return a + b;
@@ -64,8 +63,6 @@ function multiplicar(numero:number, otroNumero?:number, base:number = 3): number
 const resultado5 = multiplicar(9,0,9);
 console.log(resultado5);
 
-
-
 // FUNCIONES CON OBJETOS COMO ARGUMRNTOS
 //void -> no retorna nada.
 
@@ -90,8 +87,6 @@ const nuevoPersonaje: PersonajeLOR = {
 curar(nuevoPersonaje, 8)
 nuevoPersonaje.mostrarHP();
 
-
-
 // FUNCIONES CON OBJETOS COMO ARGUMRNTOS
 //void -> no retorna nada.
 
@@ -112,6 +107,5 @@ nuevoPersonaje.mostrarHP();
 // }
 
 // curar(nuevoPersonaje, 8)
-
 
 

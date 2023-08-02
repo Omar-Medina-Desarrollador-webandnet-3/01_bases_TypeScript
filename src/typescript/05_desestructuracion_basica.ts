@@ -46,9 +46,7 @@ console.log('El año que se estrenó este exito fue en: ', anio);
 
 //Destructuración de objetos ------------------------------------------
 
-
 // --------------------------------------------------------------------
-
 
 //Destructuración de Arreglos -----------------------------------------
 const dbz: string[] = ['Goku','Vegueta','Trunks'];
@@ -58,8 +56,5 @@ const [ , , p3] = dbz;
 // console.log('Personaje 2: ', p2);
 console.log('Personaje 3: ', p3);
 
-
 //Destructuración de objetos ------------------------------------------
-
-
 
